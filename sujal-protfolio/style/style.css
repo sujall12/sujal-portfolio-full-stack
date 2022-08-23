@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+
+
+
+.nav-links{
+    display: flex;
+    margin: 3rem;
+    list-style-type: none;
+    justify-content:flex-end;
+    gap: 120px;
+    margin-left: -4rem;
+    margin-top:rem;
+    
+}
+
+
+.nav-items{
+    font-size: larger;
+    font-weight: bold;
+    padding: 2px;
+    color: white;
+    
+    
+}
+
+
+#btn-1{
+    background: transparent;
+    position: relative;
+    transition: 0.2s;
+    padding: 15px;
+    letter-spacing: 2px;
+    font-size: x-large;
+    border-radius: 10px;
+    color: #1e9bff;
+    margin-top: -1rem;
+
+}
+
+#btn-1:hover{
+    letter-spacing: 0.15em;
+    box-shadow:0 0 35px #1e9bff ;
+    
+    
+}
+
+
+.container-2{
+    text-align: center;
+    margin-top: -8rem;
+}
+
+
+h1{
+    color: white;
+    font-size: 4rem;
+}
+
+.name-1{
+    color:red;
+}
+
+.details{
+    margin-top: 0.5rem;
+    margin-left: -4rem;
+    font-size: x-large;
+    text-transform: uppercase;
+    color: grey;
+}
+
+
+.btns{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+
+}
+
+
+.two-btn{
+    padding: 15px;
+    background-color: transparent;
+    border: 2px double violet;
+    transition: 0.2s;
+    font-size: x-large;
+    border-radius: 15px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    
+}
+
+
+.two-btn:hover{
+    letter-spacing: 00.15em;
+    box-shadow: 0 0 45px indigo;
+    
+}
+
+.img-1{
+    margin-left: 56rem;
+    margin-top: -25rem;
+}
+
+
+.logo-png{
+    margin-top: -25rem;
+}
+
+
+.bgc-video{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.project-container{
+    margin-top: 8.4rem;
+    background-color: rgb(51, 51, 51)
+}
+
+.project-head{
+    
+    font-size: 9rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: url(/assets/group_projects.png.webp) 50% 50%;
+    background-size: cover;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    
+    
+}
+
+
+.All-proj-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    margin-top: 5rem;
+    row-gap: 100px;
+}
+
+
+.project:hover{
+    box-shadow: 2px 2px 2px 2px gray;
+    border-radius: 35px;
+}
+
+
+.proj-title{
+    margin-top: 1rem;
+    font-size: 4rem;
+    font-family: "BrushScript", sans-serif;
+    font-weight: bold;
+    background: linear-gradient(90deg,#4DD637, #ff0000,#ff00f3,#ffff00,#0033ff,#ff0000, #ff00c4,#ff1cd3);
+    background-size: 400%;
+    letter-spacing: 1px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: animate 10s linear infinite;
+}
+
+@keyframes animate{
+    0%{
+        background-position: 0%;
+    }
+
+    0%{
+        background-position: 400%;
+    }
+}
+
+
+.project-links{
+    margin-top: 1rem;
+    
+}
+
+
+.live-link{
+    margin-left: 2rem;
+    border: 2px solid ;
+    padding: 5px;
+    width: 180px;
+    border-radius: 20px;
+    color: #1e9bff;
+    font-size: xx-large;
+    font-weight: bold;
+    background-color: black;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+
+.live-link:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 2px 2px 2px grey;
+    border: none;
+
+
+}
+
+
+.git-hub{
+    margin-left: 5rem;
+    border: 2px solid ;
+    padding: 3.5px;
+    width: 180px;
+    border-radius: 20px;
+    color: #1e9bff;
+    font-size: xx-large;
+    font-weight: bold;
+    background-color: black;
+    transition: 0.2s;
+    cursor: pointer;
+
+}
+
+.git-hub:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 2px 2px 2px grey;
+    border: none;
+
+}
+
+footer{
+    margin-top: 3.5rem;
+}
+
+
+.profile-image{
+    margin-left: 4rem;
+    width: 400px;
+    clip-path: circle();
+}
+
+
+.title-1{
+    margin-left: 40%;
+    margin-top: -30%;
+    font-size: xx-large;
+    color: black;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.strong-1{
+    color: grey;
+    font-size: x-large;
+}
+
+
+.E-mail{
+    margin-left: 40%;
+    margin-top: 2rem;
+    background-color: #12B0E8;
+    width: 300px;
+    padding: 15px;
+    font-size: x-large;
+    font-weight: bolder;
+    border-radius: 15px;
+    box-shadow: 2px 2px 2px ;
+}
+
+
+.status{
+    margin-top: -18rem;
+    margin-left: 1rem;
+    background-color: #4DD637;
+    width: 150px;
+    padding: 8px;
+    border-radius: 15px;
+    font-size: larger;
+    font-weight: ;
+}
